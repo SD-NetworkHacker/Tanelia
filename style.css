@@ -87,7 +87,7 @@ nav {
 
 /* Accueil */
 .accueil, .conclusion {
-    background-image: url('image/sante1.jpg');
+    background-image: url('sante1.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -183,7 +183,7 @@ nav {
 
 /* Conclusion */
 .conclusion {
-    background-image: url('image/sante2.jpg');
+    background-image: url('sante3.jpg');
     background-size: cover;
     background-position: center;
     padding: 6em 7em;
