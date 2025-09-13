@@ -1,0 +1,127 @@
+@media (max-width: 1024px) {
+    .accueil, .conclusion {
+        padding: 8em 4em;
+    }
+    .corps {
+        padding: 1em 4em;
+    }
+    .form-contact {
+        margin: 15px 4em;
+    }
+    .impacte-box img {
+        height: 12em;
+        width: 12em;
+    }
+    .impacte {
+        font-size: 0.9em;
+    }
+    .section ol {
+        padding: 0 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    .accueil, .conclusion {
+        padding: 6em 2em;
+    }
+    .accueil h2 {
+        font-size: 28px;
+    }
+    .accueil p {
+        font-size: 16px;
+    }
+    div.corps {
+        padding: 1em 2em;
+    }
+    .section {
+        padding: 24px;
+    }
+    .form-contact {
+        margin: 15px 1em;
+    }
+    .impacte-box img {
+        height: 10em;
+        width: 10em;
+    }
+    .section ol {
+        padding: 0 2em;
+    }
+    .nav-barre {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 70%;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+    }
+    .nav-barre li {
+        margin: 1.5rem 0;
+    }
+    .smartphone {
+        display: block;
+        z-index: 101;
+    }
+    #menu-smartphone:checked ~ .nav-barre {
+        display: flex;
+    }
+    /* Zone de fermeture du menu */
+    #menu-smartphone:checked + .smartphone + .nav-barre .menu-close-area {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 30%;
+        height: 100%;
+        z-index: 99;
+    }
+}
+
+/* Téléphones */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    .accueil, .conclusion {
+        padding: 4em 1em;
+    }
+    .accueil h2 {
+        font-size: 24px;
+    }
+    .accueil p {
+        font-size: 14px;
+        margin-bottom: 2em;
+    }
+    .corps {
+        padding: 1em 1em;
+    }
+    .section {
+        padding: 18px;
+        margin: 20px 0;
+    }
+    .section ol {
+        padding: 0 2em;
+    }
+    .impacte-box img {
+        height: 8em;
+        width: 8em;
+    }
+    .conclusion p {
+        font-size: 1em;
+    }
+    .nav-contenu {
+        padding: 0.8rem 1rem;
+    }
+}
