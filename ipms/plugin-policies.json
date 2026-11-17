@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-11-16T21:15:00Z",
+  "approvedPlugins": [],
+  "blockedPlugins": [],
+  "installationPolicies": {
+    "requireApproval": true,
+    "autoApproveEssential": false,
+    "maxConsecutiveInstallations": 5,
+    "contextCostThreshold": 0.8
+  },
+  "activationPolicies": {
+    "autoActivateForTasks": true,
+    "preservePermanentPlugins": true,
+    "temporaryActivationTimeout": "session-end"
+  },
+  "securityPolicies": {
+    "scanNewPlugins": true,
+    "requireCodeReview": false,
+    "trustedMarketplaces": [
+      "claude-plugins-official",
+      "claude-code-workflows",
+      "claude-code-skills"
+    ],
+    "blockExternalDependencies": false
+  },
+  "redemptionPolicies": {
+    "detectDuplicates": true,
+    "resolveDuplicatesBy": "qualityScore",
+    "maxRedundantPlugins": 1
+  }
+}
