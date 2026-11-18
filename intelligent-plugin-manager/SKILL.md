@@ -1,3 +1,9 @@
+<!-- Author: Sidy -unchk | Date: 2026-11-18 -->
+---
+name: intelligent-plugin-manager
+description: Gestion globale et permanente de l'écosystème des plugins Claude Code. Analyse les marketplaces, évalue la qualité des plugins, détecte les doublons et autorise l'installation selon des politiques de sécurité.
+---
+
 # Intelligent Plugin Manager
 
 ## Mission Principale

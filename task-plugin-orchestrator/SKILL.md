@@ -1,3 +1,9 @@
+<!-- Author: Sidy -unchk | Date: 2026-11-18 -->
+---
+name: task-plugin-orchestrator
+description: Gestion dynamique des plugins par tâche. Analyse la nature de la tâche, les technologies et capacités requises, puis active les plugins pertinents depuis le registre IPM.
+---
+
 # Task Plugin Orchestrator
 
 ## Mission Principale
